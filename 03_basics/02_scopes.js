@@ -11,7 +11,7 @@ if (true) {
 // console.log(b);
 console.log(c);
 
-let a =100
+let a =1000
 
 if (true) {
     let a=10
