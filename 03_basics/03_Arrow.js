@@ -31,4 +31,20 @@ const user = {
         let usernamne = "tejas"
         console.log(this.usernamne);
     }
-    add1()
+    // add1()
+
+
+    const addTwo = (num1 , num2) => {
+
+        return num1 + num2
+
+    }
+    console.log(addTwo(5,4));
+
+    const lab = (num1 , num2) =>   num1 + num2
+
+    console.log(lab(5,10));
+
+    const lab1 = (num1 , num2) =>   (num1 + num2)
+    console.log(lab1(10,2));
+
