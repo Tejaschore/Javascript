@@ -12,12 +12,20 @@ for(let i =0; i<10;i++){
 }
 
 for(let i =0; i<= 10;i++){
-    console.log(`Outer loop value: ${i}`);
+    // console.log(`Outer loop value: ${i}`);
 
     for (let j = 0; j <=  10; j++) {
         // console.log(`Inner loop value: ${j} and Inner loop ${i}`);
         
-        console.log(i+'*' +j + ' = ' +i*j);
+        // console.log(i+'*' +j + ' = ' +i*j);
     }
 
+}
+
+let myArr = ["Tejas" , "sam","Ram", "Sia"]
+console.log(myArr.length);
+
+for(let i = 0;i< myArr.length;i++){
+    const element = myArr[i];
+    console.log(element);
 }
